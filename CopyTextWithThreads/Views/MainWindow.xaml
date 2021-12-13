@@ -24,7 +24,7 @@
             <Button  Command="{Binding Open2FileCommand}" FontSize="23" Margin="20,0,0,0" Width="150" Height="50" FontWeight="DemiBold">File...</Button>
         </StackPanel>
         <StackPanel Grid.Row="2" Orientation="Horizontal">
-            <ProgressBar x:Name="Progress" Foreground="#01C325" Margin="25,0,0,0" Width="580" Height="50"></ProgressBar>
+            <ProgressBar x:Name="Progress" Minimum="0" Foreground="#01C325" Margin="25,0,0,0" Width="580" Height="50"></ProgressBar>
             <Button Command="{Binding CopyCommand}" FontSize="30" Margin="20,0,0,0" Width="150" Height="50" FontWeight="DemiBold">Copy</Button>
         </StackPanel>
         <StackPanel Grid.Row="3" Orientation="Horizontal">
